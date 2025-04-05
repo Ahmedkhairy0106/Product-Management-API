@@ -1,4 +1,4 @@
-# ![Product Management API Banner](https://img.shields.io/badge/Product%20Management%20API-v2.0-blueviolet?style=for-the-badge&logo=go)  
+# ![Product Management API Banner](https://img.shields.io/badge/Product%20Management%20API-v3.0-blueviolet?style=for-the-badge&logo=go)  
 ![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?style=flat-square&logo=go)  
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
@@ -42,18 +42,18 @@
 
 4. **Create Products Table**
   ```sql
-  CREATE TABLE Products (
-      ID VARCHAR(255) PRIMARY KEY,
-      Title VARCHAR(255),
-      Description TEXT,
-      Price FLOAT,
-      Quantity INT
-  )
-  ```
+    CREATE TABLE Products (
+        ID VARCHAR(255) PRIMARY KEY,
+        Title VARCHAR(255),
+        Description TEXT,
+        Price FLOAT,
+        Quantity INT
+    )
+   ```
 5. **go run main.go**
-  ```bash
-  go run main.go
-  ```
+    ```bash
+    go run main.go
+    ```
   The server will start at http://localhost:8081.
 
 ## Usage
@@ -70,15 +70,15 @@
 - For POST/PUT, select the method, go to the "Body" tab, choose "raw" and "JSON", add the body, and send.
 
 ### Example POST request body:
-  ```json
-  {
-      "id": "1",
-      "title": "Laptop",
-      "description": "High-end laptop",
-      "price": 999.99,
-      "quantity": 10
-  }
-  ```
+    ```json
+    {
+        "id": "1",
+        "title": "Laptop",
+        "description": "High-end laptop",
+        "price": 999.99,
+        "quantity": 10
+    }
+    ```
 - In the "Headers" tab, set Content-Type: application/json.
 
 ## Conclusion
