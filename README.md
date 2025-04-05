@@ -41,15 +41,15 @@
   Install and configure SQL Server. Click on https://medium.com/@analyticscodeexplained/running-microsoft-sql-server-in-docker-a8dfdd246e45.
 
 4. **Create Products Table**
-  ```sql
-    CREATE TABLE Products (
-        ID VARCHAR(255) PRIMARY KEY,
-        Title VARCHAR(255),
-        Description TEXT,
-        Price FLOAT,
-        Quantity INT
-    )
-   ```
+    ```sql
+      CREATE TABLE Products (
+          ID VARCHAR(255) PRIMARY KEY,
+          Title VARCHAR(255),
+          Description TEXT,
+          Price FLOAT,
+          Quantity INT
+      )
+     ```
 5. **go run main.go**
     ```bash
     go run main.go
