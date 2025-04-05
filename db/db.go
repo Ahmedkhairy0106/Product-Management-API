@@ -12,7 +12,7 @@ var DB *sql.DB
 func InitializeDB() (*sql.DB, error) {
 	var err error
 
-	connString := "server=localhost;user id=sa;password=Password_123#;port=1433;database=master"
+	connString := "server=localhost;user id=yourusername;password=yourpass;port=yourport;database=yourdatabase"
 
 	DB, err = sql.Open("sqlserver", connString)
 	if err != nil {
