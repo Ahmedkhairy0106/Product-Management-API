@@ -38,7 +38,7 @@
    go mod tidy
 
 3. **Set Up SQL Server**
-  Install and configure SQL Server. Click on https://medium.com/@analyticscodeexplained/running-microsoft-sql-server-in-docker-a8dfdd246e45.
+  Install and configure SQL Server in Docker. Click on https://medium.com/@analyticscodeexplained/running-microsoft-sql-server-in-docker-a8dfdd246e45.
 
 4. **Create Products Table**
     ```sql
